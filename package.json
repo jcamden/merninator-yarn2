@@ -1,11 +1,12 @@
 {
-  "name": "merninator3",
+  "name": "merninator",
   "private": true,
   "workspaces": [
     "packages/*"
   ],
   "scripts": {
-    "client": "yarn workspace client dev"
+    "client": "yarn workspace @merninator/client dev",
+    "server": "yarn workspace @merninator/server start"
   },
   "dependencies": {
     "@yarnpkg/pnpify": "^2.2.1",
